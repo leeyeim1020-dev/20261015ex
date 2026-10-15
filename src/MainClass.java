@@ -73,6 +73,44 @@ public class MainClass {
           ㆍ 숫자를 사용해야하는 경우 중간 또는 뒤에 사용한다.
           */
 		  
+		  // 데이터 변경
+		  int number = 10;
+		  System.out.println("number: " + number); // number: 10
+		  
+		  number = 20;
+		  System.out.println("number: " + number); // number: 20
+		  
+		  /*
+		   * 동일한 이름으로 변수를 선언하면 안된다.
+		   */
+		  // int number = 30;
+		  
+		  // 데이터 복사
+		  int num1 = 10;
+		  System.out.println("num1: " + num1);  // num1: 10
+		  
+		  int num22 = num1;
+		  System.out.println("num22: " + num22);  //num22: 10
+		  
+		  int n1 = 10;
+		  int n2 = 20;
+		  
+		  // Q) n1과 n2의 값을 교환하시오.
+		  int n0 = 0;
+		  n0 = n1;
+		  n1 = n2;
+		  n2 = n0;
+		  System.out.println("n1: " + n1);  // 20
+		  System.out.println("n2: " + n2);  // 10
+		  
+		  // Q) 가로와 세로 변수를 각각 만들고 방의 넓이를 구해보자.
+		  int width;
+		  int height;
+		  
+		  width = 100;
+		  height = 50;
+		  System.out.println("방의 넓이: " + (width * height));  // 5000
+		  	  
 		  
 		  
 		  
